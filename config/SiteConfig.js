@@ -22,7 +22,7 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Settings for typography.js
-  headerFontFamily: 'Iosevka Web',
-  bodyFontFamily: 'Iosevka Web',
+  headerFontFamily: 'Bitter',
+  bodyFontFamily: 'Open Sans',
   baseFontSize: '16px',
 };
