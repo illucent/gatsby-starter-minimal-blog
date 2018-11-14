@@ -24,5 +24,5 @@ module.exports = {
   // Settings for typography.js
   headerFontFamily: 'Bitter',
   bodyFontFamily: 'Open Sans',
-  baseFontSize: '16px',
+  baseFontSize: '18px',
 };
