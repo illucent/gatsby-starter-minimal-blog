@@ -55,6 +55,16 @@ module.exports = {
         icon: config.favicon,
       },
     },
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ['Iosevka Web'],
+          urls: ['/fonts/iosevka/webfont.css'],
+        },
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
   ],
