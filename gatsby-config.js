@@ -55,7 +55,6 @@ module.exports = {
         icon: config.favicon,
       },
     },
-    'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
