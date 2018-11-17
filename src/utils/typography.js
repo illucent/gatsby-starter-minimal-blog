@@ -1,14 +1,16 @@
 import Typography from 'typography';
 
+
 const config = require('../../config/SiteConfig');
 
+
 const typography = new Typography({
-  title: 'Minimal',
+  title: 'minimal',
   baseFontSize: config.baseFontSize,
-  baseLineHeight: 1.66,
+  baseLineHeight: 1.41,
   scaleRatio: 3.157,
-  headerFontFamily: [config.headerFontFamily, 'sans-serif'],
-  bodyFontFamily: [config.bodyFontFamily, 'sans-serif'],
+  headerFontFamily: [config.headerFontFamily, 'monospace'],
+  bodyFontFamily: [config.bodyFontFamily, 'monospace'],
   headerWeight: 700,
   googleFonts: [
     {
@@ -22,9 +24,11 @@ const typography = new Typography({
   ],
 });
 
+
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles();
 }
+
 
 export default typography;
